@@ -1,4 +1,4 @@
-````markdown
+
 # Verilog "1011" Sequence Detector (Mealy & Moore FSM)
 
 ## 📖 Overview
@@ -9,7 +9,6 @@ It contains synthesizable Verilog code for two distinct implementations using **
 
 This project serves as a practical and educational resource for students, hobbyists, and engineers who are learning or working with digital logic, FSM design, and hardware description languages (HDLs). It demonstrates how the same problem can be solved with different design philosophies, each with its own trade-offs in **timing** and **complexity**.
 
----
 
 ## 💡 Project Motivation
 This project was developed as a **hands-on exercise** to solidify my understanding of **fundamental digital design concepts**, specifically the theory and application of **Finite State Machines (FSMs)**.
@@ -22,7 +21,7 @@ While a sequence detector is a classic academic problem, implementing it from sc
 
 By building and testing both FSM types, this repository serves not only as a **portfolio piece** but also as a **practical demonstration** of core digital engineering principles.
 
----
+
 
 ## ✨ Key Features
 - **Dual FSM Implementations:** Mealy and Moore state machines for comprehensive learning.
@@ -31,13 +30,13 @@ By building and testing both FSM types, this repository serves not only as a **p
 - **Self-Contained Testbenches:** Verify functionality through simulation.
 - **In-Depth Documentation:** Covers theory, installation, simulation, and explanation.
 
----
+
 
 ## 📊 Simulation Waveform
 Below is an example simulation waveform from the **Mealy FSM** testbench.  
 Notice how the `detected` signal goes high **as soon as** the final `1` of the `1011` sequence arrives, showcasing the immediate output behavior of a Mealy machine.
 
----
+
 
 ## 🧠 Verilog Source Code & FSM Theory
 
@@ -132,7 +131,6 @@ endmodule
 
 </details>
 
----
 
 ### 2️⃣ Moore Machine Implementation
 
